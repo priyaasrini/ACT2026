@@ -1,0 +1,73 @@
+body { padding-top: 70px;  }
+.header img {
+    vertical-align: baseline; 
+    max-width: 100%;
+}
+.header {
+    display: table;
+    width: 100%;
+    height: auto;
+    padding: 0;
+    text-align: center; 
+    color: #000;
+}
+.banner {
+    text-align: center;
+    /* background: url(../images/Reykjavik-pjt1.jpg) no-repeat bottom center scroll;*/
+    /*background-color: #fff;*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    color: #000000;
+}
+.borderless td, .borderless th {
+    border: none !important;
+    padding: 0px !important;
+}
+
+#deadlines-table { } /* width: 33em; */ /*margin: 5px 0; margin-left: 50px; margin-right: 50px*/
+.workshops-table { margin: 5px 0; margin-left: 50px; }
+.workshops-table tr td:first-child { padding-right: 2em; width: 8em; }
+#logobox { width: 100%; margin: 10px auto; }
+#logobox ul li { display: inline; list-style-type: none; margin: 10px 20px; }
+
+/* CALL FOR PAPERS STYLES */
+#committees { background-color: #dfdfdf; 
+              border: 1px solid darkblue;
+              padding: 3px 3px; border-radius:10px; color: #174e2c;}
+#committees h3 { margin: 15px 0; padding: 0 0; font-weight: normal; color: /*#006a27*/ #2C672C; }
+#committees h3:first-child { margin-top: 4px; }
+#committees ul, #committees p { padding: 0 0; margin: 0 0; margin-left: 1em; }
+#committees ul li { list-style-type: none; }
+/* #main { margin-left: 40px; margin-right: 40px; } */
+/* #main p, #main h4 { margin-left: 20px; } */
+/* #main h2, h3 { color: #006a27; } */
+
+#cfpmain { /*margin-left: 40px; margin-right: 40px;*/ }
+#cfpmain p, #cfpmain h4 { /*margin-left: 20px;*/ } #cfpmain blockquote { margin-left: 20px; font-variant: italic;}
+h1,h2,h3,h4 {  color:  #2C672C /*#006a27*/; } 
+.table-sess {
+    width: 20%;
+}
+.table-wk {
+    font-size: 80%;
+    width: 30px;
+    text-align: center;
+    vertical-align: middle;
+}
+.table-lunch {
+    background-color: #ddd;
+    text-align: center;
+    vertical-align: middle;
+}
+.locat {
+    display: inline;
+    color: #66f;
+    font-variant: small-caps;
+    font-size: 90%;
+}
+#navbar-top { margin:0px;position: relative;padding-top: 0px;}
+#navbar-top h1{
+    margin:0px;
+}
