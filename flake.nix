@@ -1,5 +1,5 @@
 {
-  description = "ACT2023 website";
+  description = "ACT2026 website";
 
   inputs.flake-utils.url = "github:numtide/flake-utils";
 
